@@ -1,0 +1,86 @@
+{
+  "choices": [
+    {
+      "id": "capture-inbox",
+      "name": "📥 快速捕获",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Inbox/📥 收件箱.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": true,
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{DATE:YYYY-MM-DD HH:mm}} {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## 待处理",
+        "insertAtEnd": false,
+        "considerSubsections": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewPane": false
+    },
+    {
+      "id": "new-concept",
+      "name": "💡 新概念笔记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/📚 资源模板.md",
+      "fileNameFormat": "{{NAME}}",
+      "folder": {
+        "enabled": true,
+        "folders": ["Inbox"],
+        "chooseWhenMakingNote": true,
+        "showInFolderMenu": true
+      },
+      "openFileInNewPane": true,
+      "setFileBehavior": true
+    },
+    {
+      "id": "daily-note",
+      "name": "📅 今日笔记",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/📅 每日笔记模板.md",
+      "fileNameFormat": "{{DATE:YYYY年M月D日}}",
+      "folder": {
+        "enabled": true,
+        "folders": ["Daily"],
+        "chooseWhenMakingNote": false
+      },
+      "openFileInNewPane": true,
+      "setFileBehavior": true
+    },
+    {
+      "id": "new-project",
+      "name": "🚀 新项目",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/🚀 项目模板.md",
+      "fileNameFormat": "{{NAME}}",
+      "folder": {
+        "enabled": true,
+        "folders": ["Projects"],
+        "chooseWhenMakingNote": false
+      },
+      "openFileInNewPane": true,
+      "setFileBehavior": true
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfNote": true,
+    "setVersionAfterUpdateOptionRelease": true,
+    "addDefaultAIProviders": true
+  }
+}
