@@ -5,11 +5,11 @@ tags: [资源, 索引]
 # 📚 阅读笔记索引
 
 ## 机器视觉 & VLA
-- [[VLA 模型]] — 视觉-语言-动作模型概念
+- [[VLA-model]] — 视觉-语言-动作模型概念
 - [[VLM backbone]] — VLM 骨干网络架构
 - [[action head]] — 动作输出头
-- [[Centered Kernel Alignment(CKA)]] — 层间冗余检测工具
-- [[动态路由]] — 对比概念：CKA 裁剪 vs 动态路由
+- [[CKA]] — 层间冗余检测工具
+- [[dynamic-routing]] — 对比概念：CKA 裁剪 vs 动态路由
 - [[图像处理基础]] — OpenCV 图像读写与颜色空间
 
 ## Python 基础

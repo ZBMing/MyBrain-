@@ -13,6 +13,6 @@ source: "[[2026年6月23日]] 论文精读"
 	3、LLM Decoder（语言模型解码器）：基于 Transformer 架构，联合处理视觉和文本 Token，进行语义理解、推理或动作预测。
 
 ## 🔗 相关
-- [[VLA 模型]] — Backbone 是 VLA 的核心组成部分
+- [[VLA-model]] — Backbone 是 VLA 的核心组成部分
 - [[action head]] — Backbone 输出的特征向量送入 Action Head
-- [[Centered Kernel Alignment(CKA)]] — 用 CKA 检测 Backbone 各层冗余度
+- [[CKA]] — 用 CKA 检测 Backbone 各层冗余度

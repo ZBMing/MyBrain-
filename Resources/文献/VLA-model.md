@@ -9,4 +9,4 @@ VLA模型即视觉-语言-动作模型，是让机器看懂、听懂并直接动
 ## 🔗 相关
 - [[VLM backbone]] — VLA 的视觉-语言骨干网络
 - [[action head]] — VLA 的动作输出头
-- [[Centered Kernel Alignment(CKA)]] — 用于检测 VLA 层间冗余的指标
+- [[CKA]] — 用于检测 VLA 层间冗余的指标

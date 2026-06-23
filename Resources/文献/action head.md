@@ -16,6 +16,6 @@ source: "[[2026年6月23日]] 论文精读"
 3. **扩散动作头**：引入扩散模型逐步去噪生成动作序列，平滑鲁棒，适合精细操作任务。
 
 ## 🔗 相关
-- [[VLA 模型]] — Action Head 是 VLA 的三大组件之一
+- [[VLA-model]] — Action Head 是 VLA 的三大组件之一
 - [[VLM backbone]] — Action Head 接收 Backbone 输出的特征
-- [[Centered Kernel Alignment(CKA)]] — 论文发现 Action Head 同样存在严重冗余
+- [[CKA]] — 论文发现 Action Head 同样存在严重冗余
