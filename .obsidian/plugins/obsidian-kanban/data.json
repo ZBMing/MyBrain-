@@ -1,0 +1,14 @@
+{
+  "show-checkboxes": true,
+  "show-relative-date": true,
+  "link-date-to-daily-notes": true,
+  "new-note-folder": "Inbox",
+  "new-note-template": "",
+  "hide-tags-in-title": true,
+  "show-archive-all": true,
+  "archive-date-format": "YYYY-MM-DD",
+  "date-picker-week-start": 1,
+  "prepend-archive-format": "",
+  "max-archive-size": 100,
+  "show-add-list": true
+}

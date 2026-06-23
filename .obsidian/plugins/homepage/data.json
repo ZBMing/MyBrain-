@@ -1,16 +1,20 @@
 {
-  "version": 2,
-  "defaultNote": "home",
-  "useMoment": true,
-  "momentFormat": "YYYY-MM-DD",
-  "workspace": "Home",
-  "workspaceEnabled": false,
-  "hasRibbonIcon": true,
-  "openMode": "replace-all",
-  "view": "reading",
-  "revertView": true,
-  "autoCreate": false,
-  "pin": false,
-  "refreshDataview": true,
-  "autoScroll": false
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "hasRibbonIcon": true,
+      "openMode": "replace-all",
+      "view": "reading",
+      "revertView": true,
+      "autoCreate": false,
+      "pin": false,
+      "refreshDataview": true,
+      "autoScroll": false,
+      "kind": "Workspace",
+      "value": "home",
+      "commands": []
+    }
+  },
+  "separateMobile": false
 }
