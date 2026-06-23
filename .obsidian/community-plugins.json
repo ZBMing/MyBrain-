@@ -7,5 +7,7 @@
   "obsidian-git",
   "homepage",
   "obsidian-tasks-plugin",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-spaced-repetition",
+  "quickadd"
 ]

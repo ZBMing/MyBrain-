@@ -19,3 +19,8 @@ source: "[[2026年6月23日]] 论文精读"
 - [[VLA-model]] — Backbone 是 VLA 的核心组成部分
 - [[action head]] — Backbone 输出的特征向量送入 Action Head
 - [[CKA]] — 用 CKA 检测 Backbone 各层冗余度
+
+---
+## 🃏 闪卡
+
+VLM Backbone 由哪几部分组成？::视觉编码器（如 ViT）+ 语言编码器（如 Transformer）+ 跨模态融合层

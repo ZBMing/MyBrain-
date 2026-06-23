@@ -100,13 +100,24 @@ WHERE sr-due AND date(sr-due) <= date(today) + dur(3 days)
 SORT sr-due ASC
 ```
 
-### ✅ 未完成任务
+### ✅ 本周任务（Tasks 插件）
+
+```tasks
+not done
+path does not include Templates
+path does not include Daily
+path does not include .obsidian
+group by heading
+limit 20
+```
+
+### 📋 全部未完成（Dataview）
 
 ```dataview
 TASK
 FROM -"Templates" AND -"Daily" AND -".obsidian" AND -".git"
 WHERE !completed
-LIMIT 20
+LIMIT 10
 GROUP BY file.link
 ```
 

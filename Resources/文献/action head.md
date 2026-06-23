@@ -22,3 +22,8 @@ source: "[[2026年6月23日]] 论文精读"
 - [[VLA-model]] — Action Head 是 VLA 的三大组件之一
 - [[VLM backbone]] — Action Head 接收 Backbone 输出的特征
 - [[CKA]] — 论文发现 Action Head 同样存在严重冗余
+
+---
+## 🃏 闪卡
+
+Action Head 在 VLA 模型中的作用是什么？::将视觉和语言理解结果转换成机器人可执行的具体动作指令
