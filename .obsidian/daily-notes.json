@@ -1,0 +1,6 @@
+{
+  "folder": "Daily",
+  "template": "Templates/📅 每日笔记模板.md",
+  "format": "YYYY年M月D日",
+  "autorun": false
+}

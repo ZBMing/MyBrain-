@@ -1,0 +1,12 @@
+# Obsidian workspace (changes on every window resize)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# macOS
+.DS_Store
+
+# Plugin data (local state, not knowledge)
+.obsidian/plugins/calendar/data.json
+
+# WPS Office stray file
+欢迎使用WPS Office for Mac同步文件夹.pdf
