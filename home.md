@@ -90,6 +90,27 @@ LIMIT 10
 | 📦 | [[📦 归档总览\|归档]] | 不再活跃的内容 |
 | 🔍 | [[diagnostic-report\|系统诊断]] | 知识库健康报告与升级路线图 |
 
+### 📋 本周待复习（Spaced Repetition）
+
+```dataview
+TABLE sr-due AS "到期日", file.folder AS "位置"
+FROM -"Templates" AND -"Daily" AND -".obsidian"
+WHERE sr-due AND date(sr-due) <= date(today) + dur(3 days)
+SORT sr-due ASC
+```
+
+### ✅ 未完成任务
+
+```dataview
+TASK
+FROM -"Templates" AND -"Daily" AND -".obsidian" AND -".git"
+WHERE !completed
+LIMIT 20
+GROUP BY file.link
+```
+
+---
+
 ## 工作流
 
 ```
