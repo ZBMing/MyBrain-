@@ -1,5 +1,8 @@
 ---
 tags: [核心概念, 机器视觉, VLA, 模型分析, 工具]
+sr-due: 2026-06-26
+sr-interval: 3
+sr-ease: 250
 created: 2026-06-23
 source: "[[2026年6月23日]] 论文精读"
 ---

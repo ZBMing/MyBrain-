@@ -1,5 +1,8 @@
 ---
 tags: [核心概念, 领域, 心理学, 机器视觉]
+sr-due: 2026-06-26
+sr-interval: 3
+sr-ease: 250
 aliases: [visual perception]
 created: 2026-06-20
 updated: 2026-06-23

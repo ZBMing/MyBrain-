@@ -1,5 +1,8 @@
 ---
 tags: [核心概念, 机器视觉, VLA, 概念]
+sr-due: 2026-06-26
+sr-interval: 3
+sr-ease: 250
 created: 2026-06-21
 source: "[[2026年6月21日]] World Pilot 论文精读"
 ---
