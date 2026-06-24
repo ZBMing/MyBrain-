@@ -4,9 +4,13 @@
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Plugin data (local state, not knowledge)
 .obsidian/plugins/calendar/data.json
+.obsidian/plugins/*/data.json
 
-# WPS Office stray file
-欢迎使用WPS Office for Mac同步文件夹.pdf
+# Temporary files
+*.tmp
+*.bak

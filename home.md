@@ -1,7 +1,7 @@
 ---
 tags: [主页]
 created: 2026-06-20
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 # 🏠 我的第二大脑
@@ -23,6 +23,15 @@ TABLE file.cday AS "创建", file.mtime AS "最后修改"
 FROM "Inbox"
 WHERE file.name != "📥 收件箱"
 SORT file.mtime DESC
+```
+
+### 🆕 本周新增笔记
+
+```dataview
+TABLE file.cday AS "创建日期", file.folder AS "位置"
+FROM -"Templates" AND -"Daily" AND -#索引 AND -#主页 AND -".obsidian"
+WHERE file.cday >= date(today) - dur(7 days)
+SORT file.cday DESC
 ```
 
 ### 🏝️ 孤岛笔记（0入链 0出链）
@@ -88,7 +97,9 @@ LIMIT 10
 | 📋 | [[Projects/kanban/机器视觉学习看板\|学习看板]] | 12周拖拽式进度 |
 | 🌱 | [[🌱 领域总览\|领域]] | 持续关注的领域 |
 | 📚 | [[📚 资源总览\|资源]] | 主题参考和阅读笔记 |
+| 📖 | [[Resources\|阅读清单]] | 读书和论文追踪 |
 | 📦 | [[📦 归档总览\|归档]] | 不再活跃的内容 |
+| 📘 | [[📘 源码文档\|源码文档]] | CLI、脚本、MCP 工具说明 |
 | 🔍 | [[diagnostic-report\|系统诊断]] | 知识库健康报告与升级路线图 |
 
 ### 📋 本周待复习（Spaced Repetition）

@@ -1,12 +1,12 @@
 ---
 tags: [指南, 索引]
 created: 2026-06-20
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 # 📖 MyBrain 知识库 · 完整使用指南
 
-> 版本：v2.0 | 插件：11个 | 笔记：39篇 | 状态：✅ 全部就绪
+> 版本：v3.0 | 插件：11个 | 笔记：59篇 | Inbox：0条 | 断裂链接：0 | 状态：✅ 全部就绪
 
 ---
 
@@ -34,17 +34,17 @@ updated: 2026-06-23
 
 ## ⚡ 命令速查
 
-| 命令 | 作用 | 示例 |
-|------|------|------|
-| `ci "Day" ⭐ "备注"` | 每日学习打卡 | `ci "Day 5" 3 "学完OpenCV"` |
-| `cv` | 学习仪表盘（打卡状态+热力图） | `cv` |
-| `cap "内容"` | 终端快速捕获到 Inbox | `cap "VLA中动态路由是核心创新"` |
-| `cap --link "URL" "标题"` | 捕获链接 | `cap --link "https://arxiv.org/..." "新论文"` |
-| `brain-sync` | Git提交 + gbrain索引同步 | `brain-sync` |
-| `brain-health` | 系统健康检查 | `brain-health` |
-| `brain-stats` | 知识库统计 | `brain-stats` |
-| `gbrain query "问题"` | 语义搜索笔记 | `gbrain query "VLA模型架构"` |
-| `gbrain search "关键词"` | 全文关键词搜索 | `gbrain search "视觉感知"` |
+| 命令                      | 作用                 | 示例                                         |
+| ----------------------- | ------------------ | ------------------------------------------ |
+| `ci "Day" ⭐ "备注"`       | 每日学习打卡             | `ci "Day 5" 3 "学完OpenCV"`                  |
+| `cv`                    | 学习仪表盘（打卡状态+热力图）    | `cv`                                       |
+| `cap "内容"`              | 终端快速捕获到 Inbox      | `cap "VLA中动态路由是核心创新"`                      |
+| `cap --link "URL" "标题"` | 捕获链接               | `cap --link "https://arxiv.org/..." "新论文"` |
+| `brain-sync`            | Git提交 + gbrain索引同步 | `brain-sync`                               |
+| `brain-health`          | 系统健康检查             | `brain-health`                             |
+| `brain-stats`           | 知识库统计              | `brain-stats`                              |
+| `gbrain query "问题"`     | 语义搜索笔记             | `gbrain query "VLA模型架构"`                   |
+| `gbrain search "关键词"`   | 全文关键词搜索            | `gbrain search "视觉感知"`                     |
 
 ---
 
@@ -53,7 +53,6 @@ updated: 2026-06-23
 ### 每天打卡
 
 ```bash
-# 新终端中执行（或 source ~/.zshrc 后）
 ci "Day 5" 3 "备注（可选）"
 ```
 
@@ -100,17 +99,18 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 
 打开 Obsidian → 自动显示 `home.md` 仪表盘（Homepage 插件）
 
-仪表盘包含：
+仪表盘包含 8 个面板：
 
-| 面板 | 数据来源 | 刷新方式 |
-|------|---------|---------|
-| 📥 Inbox 积压 | Dataview | 实时 |
-| 🏝️ 孤岛笔记 | Dataview | 实时 |
-| 🔥 链接度 Top 10 | Dataview | 实时 |
-| 📂 PARA 统计 | Dataview | 实时 |
-| 🔄 待复习卡片 | Dataview + SR | 实时 |
-| ✅ 本周任务 | Tasks 插件 | 实时 |
-| 🔍 最近更新 | Dataview | 实时 |
+| 面板 | 数据来源 | 说明 |
+|------|---------|------|
+| 📥 Inbox 积压 | Dataview | 未处理的捕获笔记 |
+| 🆕 本周新增 | Dataview | 近7天创建的笔记 |
+| 🏝️ 孤岛笔记 | Dataview | 0入链0出链的孤立笔记 |
+| 🔥 链接度 Top 10 | Dataview | 链接最密集的核心笔记 |
+| 📂 PARA 统计 | Dataview | 各层级笔记数量分布 |
+| 🔄 待复习卡片 | Dataview + SR | 3天内到期的复习卡片 |
+| ✅ 本周任务 | Tasks 插件 | 全局待办聚合 |
+| 🔍 最近更新 | Dataview | 最近修改的10篇笔记 |
 
 ### 核心快捷键
 
@@ -145,7 +145,7 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 
 ## 🧠 Spaced Repetition 复习
 
-### 已配置的闪卡（7篇，76张卡片）
+### 已配置的闪卡（7篇）
 
 | 笔记 | 核心问答 |
 |------|---------|
@@ -157,14 +157,33 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 | VLM backbone | Backbone组成部分？ |
 | 图像处理基础 | OpenCV默认颜色空间？ |
 
+> 💡 Resources/文献/ 中还有 15 篇新概念笔记，可按需添加 SR 标记（在 frontmatter 中添加 `sr-due` / `sr-interval` / `sr-ease` 字段）。
+
 ### 使用流程
 
 1. 点击侧边栏 🧠 图标
-2. 看到问题 → 心里回答 → 点击"显示答案"
+2. 看到问题 → 心里回答 → 点击「显示答案」
 3. 根据记忆程度选择：**困难 / 正常 / 简单**
 4. 算法自动调整下次复习间隔
 
 > 首次复习日：2026年6月26日。每天打开 Obsidian 自动提示当天待复习卡片。
+
+### 为新笔记添加闪卡
+
+在笔记末尾添加：
+```markdown
+---
+## 🃏 闪卡
+
+问题文字？::答案文字
+```
+
+然后在 frontmatter 中添加：
+```yaml
+sr-due: 2026-06-27
+sr-interval: 3
+sr-ease: 250
+```
 
 ---
 
@@ -178,10 +197,10 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 
 ### Kanban 看板
 
-`Cmd+O` → 搜索"看板" → 打开 `Projects/kanban/机器视觉学习看板.md`
+`Cmd+O` → 搜索「看板」→ 打开 `Projects/kanban/机器视觉学习看板.md`
 
-- 拖拽 Week 卡片在不同列之间移动
-- 三列：📥 待开始 / 🔄 进行中 / ✅ 已完成
+- 12 周学习路线可视化，三列拖拽：📥 待开始 / 🔄 进行中 / ✅ 已完成
+- 内容与 `机器视觉学习路线.md` 保持同步
 
 ---
 
@@ -196,6 +215,7 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 | 学习回顾 | "我上周学了哪些内容？" |
 | 闪卡生成 | "帮我把这篇笔记做成问答闪卡" |
 | 交叉分析 | "心理学笔记和机器视觉笔记有什么联系？" |
+| 知识库诊断 | "帮我看一下知识库有没有什么问题" |
 
 ---
 
@@ -213,13 +233,16 @@ python3 ~/cv_learning/tracker.py status # 简要状态
 └─────────────────────────────────────┘
 ```
 
-### 整理决策
+### 整理决策树
 
 ```
 这条笔记是？
 ├─ 有截止日期、需要行动？ → 🚀 Projects
 ├─ 长期关注、没有终点？   → 🌱 Areas
-├─ 纯参考资料？           → 📚 Resources
+├─ 纯参考资料/概念笔记？  → 📚 Resources
+│   ├─ 论文概念 → Resources/文献/
+│   ├─ 技能笔记 → Resources/机器视觉/
+│   └─ 读书笔记 → Resources/心理学/
 ├─ 已经不用了？           → 📦 Archives
 └─ 还不确定？             → 📥 留在 Inbox
 ```
@@ -267,18 +290,22 @@ brain-sync   # 一键：git add + commit + gbrain reindex
 
 ```
 ~/Obsidian/MyBrain/
-  📥 Inbox/              ← 快速捕获（1篇待处理）
+  📥 Inbox/              ← 快速捕获（当前 0 条积压）
   🚀 Projects/           ← 活跃项目 + Kanban看板
   🌱 Areas/              ← 4个领域（心理学/机器视觉/跨领域/总览）
-  📚 Resources/          ← 文献/心理学/机器视觉/Python
+  📚 Resources/          ← 按主题分类
+  │  ├── 文献/           ← 21篇论文概念笔记（VLA/RL/方法论）
+  │  ├── 机器视觉/       ← 3篇技能笔记（Python/OpenCV）
+  │  └── 心理学/         ← 4篇心理学笔记（含待读存根）
   📦 Archives/           ← 历史路线 + 心理学资料
-  📅 Daily/              ← 每日笔记
+  📅 Daily/              ← 每日笔记（3篇，含论文精读）
   📋 Templates/          ← 4个模板（日记/项目/资源/领域）
   📊 Weekly/             ← 自动生成的周报
-  🔧 scripts/            ← 自动化脚本
-  🏠 home.md             ← 仪表盘主页
+  🔧 scripts/            ← 7个自动化脚本
+  🏠 home.md             ← 仪表盘主页（8个面板）
   📖 usage-guide.md      ← 本指南
   🔍 diagnostic-report.md ← 系统诊断报告
+  📘 源码文档.md          ← CLI / 脚本 / MCP 工具说明
 ```
 
 ---
@@ -312,6 +339,7 @@ brain-sync   # 一键：git add + commit + gbrain reindex
 | 🌆 傍晚 | AI辅助整理新笔记 | Claude Code | 5分钟 |
 | 🌙 晚上 | 备份 + 回顾 | `brain-sync` | 1分钟 |
 | 🧠 随时 | 闪卡复习 | Spaced Repetition | 5分钟 |
+| 📅 周日 | Inbox清空 + 周回顾 | Obsidian + 定时任务 | 20分钟 |
 
 ---
 
@@ -324,7 +352,8 @@ brain-sync   # 一键：git add + commit + gbrain reindex
 | Git 推送失败 | 检查网络，手动 `git push` |
 | gbrain 连接失败 | 运行 `brain-health` |
 | 插件异常 | 设置 → 第三方插件 → 关闭再开启 |
+| 两份 vault 不同步 | 主 vault 在 `~/Obsidian/MyBrain/`（指向 iCloud Drive），以它为准 |
 
 ---
 
-*最后更新：2026-06-23*
+*最后更新：2026-06-24*
