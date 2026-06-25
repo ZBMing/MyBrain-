@@ -54,4 +54,4 @@ device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
 - [[基础语法]]
 - [[图像处理基础]]
 - Jupyter Notebooks: `Python数据类型.ipynb`, `计算机基础知识.ipynb`
-- [[机器视觉学习路线_唯一执行版]] — 12 周学习计划
+- [[机器视觉学习路线]] — 12 周学习计划
