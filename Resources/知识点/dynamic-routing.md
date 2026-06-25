@@ -1,5 +1,5 @@
 ---
-tags: [核心概念, 概念, AI]
+tags: [领域/机器视觉/VLA, 核心概念]
 sr-due: 2026-06-26
 sr-interval: 3
 sr-ease: 250
