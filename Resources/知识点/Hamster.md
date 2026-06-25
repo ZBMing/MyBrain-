@@ -20,3 +20,11 @@
 *   **成功率显著提升**：实验数据显示，相比当时端到端的VLA模型（如OpenVLA），HAMSTER在多种泛化测试中，任务成功率平均提升了**20%**，相对增益达到**50%**。
 
 简单来说，**HAMSTER**代表的是一种让机器人"大脑"先画个草图，"小脑"再按图操作的新架构，以更好地利用现有数据，并在开放世界中完成更泛化的任务。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]

@@ -20,3 +20,15 @@ source: "[[2026年6月21日]] World Pilot 论文精读"
 
 VLA 模型的全称是什么？::视觉-语言-动作模型（Vision-Language-Action Model）
 VLA 与 VLM 的核心区别是什么？::VLM 只做理解和生成，VLA 增加了动作输出层，能直接控制机器人执行物理动作
+
+
+## 相关
+
+- [[instruction-following 的泛化能力]]
+- [[零样本学习（Zero-shot Learning）]]
+- [[reward信号]]
+- [[CoorDex（隐空间先验 + 协调残差）]]
+- [[zero-shot 泛化的架构]]
+- [[动态权重]]
+- [[基于搜索的规划器]]
+- [[基于采样的规划器]]

@@ -16,3 +16,11 @@
 *   **验证通用问题解决能力**：如Terminal-Bench的评估结果显示，即使是当时最先进的智能体，在涉及QEMU的高难度任务上也并非总能成功。这些任务正是用来检验智能体是否具备自主规划、调试和解决全新问题的能力。
 
 因此，在《GeneralVLA-2》这类论文的上下文中，提到QEMU，通常意味着AI智能体要处理的是一项环境复杂、操作链长、需要高级系统知识的挑战性任务。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]

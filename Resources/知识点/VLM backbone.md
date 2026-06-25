@@ -24,3 +24,15 @@ source: "[[2026年6月23日]] 论文精读"
 ## 🃏 闪卡
 
 VLM Backbone 由哪几部分组成？::视觉编码器（如 ViT）+ 语言编码器（如 Transformer）+ 跨模态融合层
+
+
+## 相关
+
+- [[instruction-following 的泛化能力]]
+- [[零样本学习（Zero-shot Learning）]]
+- [[reward信号]]
+- [[CoorDex（隐空间先验 + 协调残差）]]
+- [[zero-shot 泛化的架构]]
+- [[动态权重]]
+- [[基于搜索的规划器]]
+- [[基于采样的规划器]]

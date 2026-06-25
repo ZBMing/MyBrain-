@@ -22,3 +22,12 @@
 
 在AI编程智能体的语境下，**mini-SWE-agent**是一个**用约100行代码实现、性能强大的极简系统**。它通过**放弃专用工具、完全依赖Bash终端**的设计，让智能体本身变得**轻量、稳定、透明**，为前沿语言模型在复杂软件工程任务上提供了一个**高性能的“竞技场”**。
 
+
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]

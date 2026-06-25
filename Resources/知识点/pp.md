@@ -19,3 +19,11 @@
 -   -4.4pp 和 -5.0pp 分别指在两个不同测试集（例如 **Terminal-Bench** 和 **SWE-Bench**）上，成功率分别下降了 **4.4 和 5.0 个百分点**。
 
 这个结果有力地证明了：仅仅依赖语义相似度来检索经验是不够的，论文引入的“记忆治理”机制对维持系统高性能确实起到了关键作用。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]

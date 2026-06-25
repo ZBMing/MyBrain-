@@ -32,3 +32,11 @@
 ### 💎 它对我们讨论的价值
 
 在《GeneralVLA-2》这类论文的背景下，**OpenHands Software Agent SDK** 代表了当前 AI 编程智能体领域最前沿的工程化方向。它通过清晰的分层设计解决了智能体从研究原型到生产落地的诸多难题（如状态管理、沙盒隔离、多模型路由、安全审计等）。论文中提到的在 **SWE-bench Verified** 上高达 **72%** 的任务解决率，正是基于这套 SDK 构建的智能体所取得的成果。这也解释了为何它会成为评估受控长期记忆系统在复杂软件工程任务中效果时，被提及的重要工具或框架。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]
+- [[QEMU]]

@@ -24,3 +24,15 @@ Reward信号（奖励信号）是强化学习中环境反馈给智能体（Agent
 
 - ‌**传统RL**‌：机器人控制、游戏AI（如AlphaZero），通过奖励引导探索最优路径 。
 - ‌**大模型RLHF/RLVR**‌：在推理任务中，Reward信号常由Verifier模型生成，包含格式合规性（Format）与内容准确性（Score）的综合打分，用于微调模型输出 。‌‌
+
+
+## 相关
+
+- [[instruction-following 的泛化能力]]
+- [[零样本学习（Zero-shot Learning）]]
+- [[CoorDex（隐空间先验 + 协调残差）]]
+- [[zero-shot 泛化的架构]]
+- [[visual-perception]]
+- [[动态权重]]
+- [[基于搜索的规划器]]
+- [[基于采样的规划器]]

@@ -40,3 +40,11 @@
 ### 🔗 在你的论文（GeneralVLA-2）中的意义
 
 你正在阅读的《GeneralVLA-2》论文中提到的**受控长期记忆系统（Governed KnowledgeBank）**，正是为了应对这类需要**长期规划、多步骤推理和大量信息处理**的复杂任务而设计的。论文结果显示，这一新系统在常规的Terminal-Bench任务上提升了成功率，这暗示了它在处理更大规模、更长周期的项目时，也具有潜在的巨大价值。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]
+- [[QEMU]]

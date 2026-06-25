@@ -38,3 +38,11 @@
 - **沙盒（Sandbox）**：一个安全的、隔离的执行环境，用于运行可能不受信任的代码。
 - **可复现性**：实验结果可以被其他研究者在相同条件下重复验证的能力。
 - **轻量级**：相对虚拟机而言，资源占用少，启动速度快。
+
+## 相关
+
+- [[SWE-bench-Live]]
+- [[Terminal-Bench Challenges]]
+- [[OpenHands Software Agent SDK]]
+- [[Governed KnowledgeBank——受控长期记忆系统]]
+- [[Terminal-Bench]]
