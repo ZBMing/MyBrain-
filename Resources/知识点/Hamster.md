@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 在机器人学的语境下，**HAMSTER** 通常指一篇前沿研究论文及其提出的方法，全称是 **HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation**（面向开放世界机器人操作的层次化动作模型）。
 
 这篇论文发表于 **ICLR 2025**，提出了一种提升机器人操作泛化能力的新思路。

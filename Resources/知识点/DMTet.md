@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 **DMTet**（Deep Marching Tetrahedra，深度行进四面体）是一种**可微分的3D表面提取方法**，可以把它理解为**FlexiCubes的前身或基础版本**。
 
 它和Marching Cubes、FlexiCubes属于同一类算法——都是将隐式3D表示（如SDF）转化为显式三角网格的“桥梁”。但DMTet的关键突破在于：**它是可微分的**，这让神经网络能够端到端地训练，直接优化网格质量。

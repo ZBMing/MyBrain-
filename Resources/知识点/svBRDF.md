@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 在你阅读的3D重建和渲染论文中，**svBRDF** 是 **Spatially-Varying Bidirectional Reflectance Distribution Function** 的缩写，中文译为**空间变化双向反射分布函数**。
 
 它和我们上一轮聊的 **BRDF** 的核心区别在于：**BRDF 描述的是“一个均匀材质”的属性，而 svBRDF 描述的是“物体表面每个位置各自独有的材质属性”。**

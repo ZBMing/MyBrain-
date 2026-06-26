@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 **VoxPoser** 是斯坦福大学李飞飞团队在2023年提出的一项具身智能研究，全称是 **VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models**。它的核心思路，是利用大语言模型和视觉语言模型的强大能力，让机器人在**零样本**（即无需额外训练）的情况下，理解自然语言指令并执行各种日常操作任务。
 
 ### 🎯 核心思想：用“3D价值地图”为机器人导航

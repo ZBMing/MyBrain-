@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 VGGT 是 **Visual Geometry Grounded Transformer** 的缩写，翻译过来就是**视觉几何基础 Transformer**。你可以把它理解成一个**3D视觉领域的“万能模型”**。
 
 它和你正在读的《GeneralVLA-2》论文关系非常密切，因为在论文中，VGGT 就是那个提供“Ego-Centric几何先验”的外部模型。

@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月26日]]"
+tags: [概念]
+---
+
 在ReLi3D等3D重建与图形学论文的背景下，**空间变化BRDF**（**svBRDF**，Spatially-Varying Bidirectional Reflectance Distribution Function）是指**物体表面不同位置具有不同材质反射属性**的一种描述方式。
 
 简单说，它回答的问题是：**“物体表面这个点，当光线从某个方向照过来时，它会以怎样的方式反射到我的眼睛里？”** 并且，这个答案**随着表面位置的不同而变化**。
