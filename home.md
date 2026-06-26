@@ -118,6 +118,24 @@ WHERE sr-due AND date(sr-due) <= date(today) + dur(3 days)
 SORT sr-due ASC
 ```
 
+### 🎮 趣味工具箱
+
+| 命令 | 说明 |
+|------|------|
+| `bp today` | ☀️ 今日全局面板 |
+| `bp question` | 💡 每日跨领域思考题 |
+| `bp wander` | 🎲 随机发现一个知识点 |
+| `bp blindspot` | 🔍 知识盲区检测 |
+| `bp inspire` | ✍️ 写作灵感生成 |
+| `bp vs "A" "B"` | ⚔️ 两个概念对决 |
+| `bp path "A" "B"` | 🕸️ 六度分隔 |
+| `bp heatmap` | 📊 学习热力图 |
+| `bp annual` | 📊 年度报告 |
+| `bp wordcloud` | 📝 本周词云 |
+| `bp review` | 📅 每周回顾 |
+
+> 💡 终端输入 `bp` 查看完整帮助
+
 ### ✅ 本周任务（Tasks 插件）
 
 ```tasks

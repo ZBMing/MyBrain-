@@ -65,3 +65,8 @@ echo "- [ ] 整理本周论文笔记" >> "$OUTFILE"
 echo "- [ ] 更新领域索引" >> "$OUTFILE"
 
 echo "✅ 周报已生成: $OUTFILE"
+
+# 趣味工具回顾
+echo "=== 📅 每周回顾 ==="
+$HOME/bin/brain-play review
+/Users/zhuxiaoming/bin/brain-play blindspot
