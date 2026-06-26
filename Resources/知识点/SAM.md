@@ -40,3 +40,12 @@ SAM 的本质是一个**图像分割模型**，它的强大之处在于：
 **参考链接**：如果你需要，这是相关的开源项目和论文信息：
 - SAM 论文：[Segment Anything](https://arxiv.org/abs/2304.02643)
 - SAM 项目官网：[Segment Anything | Meta AI](https://segment-anything.com/)
+
+## 相关
+
+- [[动态权重]]
+- [[Ego-Centric坐标系]]
+- [[GeoFuse-MV3D（几何融合多视角三维重建）]]
+- [[前馈神经网络]]
+- [[SWE-bench-Live]]
+- [[零样本学习（Zero-shot Learning）]]
