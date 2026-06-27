@@ -1,16 +1,3 @@
 {
-  "promptDelete": false,
-  "newFileLocation": "folder",
-  "newFileFolderPath": "Inbox",
-  "attachmentFolderPath": "Assets",
-  "showUnsupportedFiles": true,
-  "showLineNumber": false,
-  "spellcheck": false,
-  "livePreview": true,
-  "readableLineLength": true,
-  "strictLineBreaks": false,
-  "showFrontmatter": true,
-  "foldHeading": true,
-  "foldIndent": true,
   "alwaysUpdateLinks": true
 }
