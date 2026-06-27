@@ -1,3 +1,8 @@
+---
+source: "[[2026年6月27日]]"
+tags: [概念]
+---
+
  **Video Transformer**——你可以把它理解为 **“为视频量身定制的Transformer”**。
 
 用最简单的话说：**Video Transformer = Transformer架构 + 专门处理“空间+时间”维度的设计。**
